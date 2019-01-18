@@ -1,0 +1,116 @@
+/* Creado por Ángel Hernández Ortiz. Fecha del examen 18/01/2019 */
+body {
+  background-color:#F3F781;
+  font-family: sans-serif;
+}
+
+main{
+  background: url(img/naranja2.svg); 
+}
+
+h1 {
+  font: 200% cursive;
+  color: #FAEADF;
+  text-shadow: red 6px 0;
+  background-color: #FAAC58;
+  text-align: center;
+  padding-bottom: 1%; 
+  padding-top: -1%;
+  
+}
+nav{
+    background-color: #F8F127;
+    border: red 4px solid;
+    color: orange;
+    text-align: justify;
+    margin-top: -1%;
+}
+
+a{
+  margin-right: 150px;
+  padding-left: 5%;
+  font-size: 125%;
+  color: #FF8000;
+}
+
+p{
+  font-size: 115%;
+  float: left;
+  letter-spacing: 4px;
+}
+
+p:hover {
+  z-index: 3;
+}
+
+p.tipo1 {
+  background:url(img/naranja.png) repeat-y top left, url(img/naranja.png) repeat-y top right;
+  background-size: 10%;
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  width: 35%;
+  height: 30%;
+  z-index: 2;
+  border: red 4px solid;
+  background-color: #FEC195;
+  padding-left: 90px;
+  padding-right: 90px;
+  text-align: center;
+  color: #C70707;
+
+}
+
+article.naranja{
+  background-image: url(img/naranja.png);
+  background-size: 10% ;
+  background-repeat: repeat-x;
+}
+
+span{
+  text-decoration: underline;
+}
+
+p.tipo2 {
+  position: absolute;
+  top: 40%;
+  left: 6%;
+  width: 38%;
+  height: 25%;
+  border: #DEDA47 4px solid;
+  background-color: #FBF9A3;
+  color: orange;
+  text-align: left;
+}
+
+p.tipo3{
+  position: absolute;
+  top: 40%;
+  right: 5%;
+  width: 43%;
+  height: 25%;
+  border:#58D3F7 4px solid;
+  background-color: #CFF2FD;
+  color: orange;
+  text-align: right;
+  font-size: 100%;
+}
+
+p.tipo4{
+  position: absolute;
+  top: 93%;
+  left: 40%;
+  font-size: 100%;
+  letter-spacing: 0px;
+  color: red;
+}
+
+ul{
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  list-style-type: upper-roman;
+  background-color: #FEC195;
+  color: darkblue;
+}
+
